@@ -1,0 +1,281 @@
+/* 去除浏览器整体默认样式 */
+* {
+	margin: 0;
+	padding: 0;
+}
+/* 设置页面最小高度，去除x方向滑动条 */
+body {
+	min-height: 1000px;
+	overflow-x: hidden;
+}
+/* 链接样式 */
+a {
+	color: #933;
+	text-decoration: none;
+}
+/* 页面头部 */
+.header {
+	height: 100px;
+	width: 100%;
+	background-color: #fff;
+}
+/* 头部左边logo部分 */
+.logo {
+	margin-top: 30px;
+	position: relative;
+	left: 153px;
+	width: 30%;
+	font-size: 30px;
+	float: left;
+}
+/* 头部右边菜单部分 */
+.menu {
+	float: right;
+	overflow: hidden;
+}
+.menu ul {
+	margin-right: 50px;
+	width: 320px;
+	height: 100px;	
+}
+.menu ul li {
+	font-size: 20px;
+	font-family: "微软雅黑";
+	float: right;
+	width: 80px;
+	line-height: 100px;
+	text-align: center;
+	font-weight: bold;
+	list-style-type: none;
+	float: left;
+}
+.menu ul li:hover {
+	background: #e4a342;
+}
+/* 页面主体 */
+.main {
+	clear: both;
+	margin: 0 auto;
+	width: 100%;
+	background-color: #fff;
+	font-size: 20px;
+    font-weight: bold;
+}
+/* 轮播图部分 */
+.banner {
+	margin: 0 auto;
+	width: 100%;
+	text-align: center;
+	color: #7d7d7d;
+	font-size: 20px;
+	font-weight: bold;
+}
+.banner img {
+	width: 100%;
+	height: 500px;
+}
+/* 联系我部分 */
+.chatme {
+	margin: 50px auto;
+	width: 80%;
+	height: 100px;
+}
+.weibo {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+.weixin {
+	width: 33.3%;
+	float: left;
+	text-align: center;
+}
+.QQ {
+	width: 33.3%;
+	float: left;
+	text-align: center;	
+}
+.chatme img{
+	width: 100px;
+	height: 100px;
+}
+/* 警句部分 */
+p { 
+	margin: 0 auto;
+    color: #e19796;
+    font-size: 22px;
+    font-style: italic;
+    font-weight: bold;
+    padding-top: 50px;
+    text-align: center;
+}
+/* 相册题目部分 */
+.nullbar {
+	margin: 0 auto;
+	width: 1000px;
+	height: 50px;
+}
+/* 展示图片部分 */
+.icon {
+	margin: 0 auto;
+	width: 1000px;
+}
+.icon_ico {
+	padding: 10px;
+	text-align: center;
+	float: left;
+}
+.icon_ico img{
+	height: 260px;
+    width: 310px;
+}
+.des2 {
+	color: #7c7d7f;
+    font-size: 20px;
+    font-weight: bold;
+    padding-top: 10px;
+}
+.des3 {
+	color: #bdbdbc;
+    padding-top: 10px;
+    text-align: center;
+}
+/* 生活部分 */
+.content {
+	margin: 0 auto;
+	clear: both;
+	background-color: #f9f9f9;
+	width: 100%;
+
+}
+/* 生活头部 */
+.content_top {
+	font-family: "微软雅黑";
+	color: #7d7d7d;
+    font-size: 20px;
+    padding-bottom: 40px;
+    padding-top: 50px;
+    text-align: center;
+}
+/* 生活底部 */
+.content_bottom {
+	margin: 0 auto;
+	padding: 20px;
+	width: 1000px;
+	text-align: left;
+	overflow: hidden;
+}
+.content_ico {
+	width: 480px;
+	padding: 5px;
+	float: left;
+}
+.content_ico img {
+	height: 480px;
+    width: 470px;
+}
+.des4 {
+	clear: both;
+	padding-top: 20px;
+	width: 470px;
+	color: #7c7d7f;
+    font-size: 20px;
+    font-weight: bold;
+    float: left;
+    text-align: left;
+}
+/* 左侧导航栏 */
+.sidebar {
+	width: 160px;
+	height: 180px;
+	position: fixed;
+	top: 50%;
+	margin-top: -90px;
+}
+
+.subnav {
+	width: 160px;
+	height: auto;
+	font-family: "宋体";
+	font-size: 15px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	background-color: #e4a342;
+	cursor: pointer;
+	border-bottom: 1px solid #FFF;
+}
+.subnav:hover ul{
+	display: block;
+}
+.subnav ul{
+	width: 160px;
+	height: auto;
+	display: none;
+}
+.subnav li {
+	list-style-type: none;
+	width: 160px;
+	height: 30px;
+	font-family: "宋体";
+	font-size: 15px;
+	color: #000;
+	line-height: 30px;
+	text-align: center;
+	background-color: #fff;
+	
+}
+.subnav ul li{
+	width: 160px;
+	height: auto;
+	font-family: "宋体";
+	font-size: 15px;
+	color: #333;
+	line-height: 30px;
+	text-align: center;
+	border-bottom: 1px dashed #666;
+	position: relative;
+}
+.subnav ul li:hover .list-3{
+	display: block;
+}
+.subnav ul li .list-3{
+	width: 160px;
+	height: auto;
+	display: none;
+	position: absolute;
+	top: 0;
+	left: 160px;
+}
+.subnav ul li .list-3 .list_3Dom {
+	list-style-type: none;
+	width: 160px;
+	height: 30px;
+	font-family: "宋体";
+	font-size: 15px;
+	color: #fff;
+	line-height: 30px;
+	text-align: center;
+	background-color: #e4a342;
+	border-bottom: 1px solid #FFF;
+}
+/* 页面底部 */
+.footer{
+	clear: both;
+	width: 100%;
+	height: 100px;
+	color: #fff;
+	font-family: "微软雅黑";
+	font-size: 15px;
+	background-color: #292c35;
+	text-align: center;
+	line-height: 100px;
+}
+.return_top{
+	display: block;
+	width: 35px; 
+	height: 42px; 
+    position:fixed; 
+    right: 50px;
+    bottom: 50px;
+}
