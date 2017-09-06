@@ -215,6 +215,7 @@ p {
 .content {
 	margin: 0 auto;
 	clear: both;
+	position: relative;
 	background-color: #f9f9f9;
 	width: 100%;
 
@@ -259,7 +260,7 @@ p {
 .sidebar {
 	width: 160px;
 	height: 180px;
-	position: relative;
+	position: absolute;
 	bottom: 350px;
 	margin-top: -90px;
 	z-index: 2;
