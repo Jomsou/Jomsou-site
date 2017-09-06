@@ -7,6 +7,7 @@
 <meta name="description" content="Jomsou的个人空间站！">
 <meta name="keywords" content="Jomsou的个人空间站！">
 <link href="CSS/style.css" rel="stylesheet">
+<script type="text/javascript" src="js/banner.js"></script>
 </head>
 <body>
     <!--页面头部-->    
@@ -28,8 +29,26 @@
     <!--页面主体--> 
     <div class="main">
         <!--轮播图部分--> 
-        <div class="banner">
-            <img src="images/banner_one.jpeg" alt="my beutiful life">
+        <div class="banner" id="container">
+            <div id="list" style="left: -1300px;">
+                <img src="images/banner_05.jpg" alt="5" />
+                <img src="images/banner_01.jpg" alt="1" />
+                <img src="images/banner_02.jpg" alt="2" />
+                <img src="images/banner_03.jpg" alt="3" />
+                <img src="images/banner_04.jpg" alt="4" />
+                <img src="images/banner_05.jpg" alt="5" />
+                <img src="images/banner_01.jpg" alt="5" />
+        </div>
+        <div id="buttons">
+            <span index="1" class="on"></span>
+            <span index="2"></span>
+            <span index="3"></span>
+            <span index="4"></span>
+            <span index="5"></span>
+        </div>
+        <a href="javascript:;" id="prev" class="arrow">&lt;</a>
+        <a href="javascript:;" id="next" class="arrow">&gt;</a>
+    </div>
         </div>
         <!--联系我部分-->
         <div class="chatme" id="chatme">
